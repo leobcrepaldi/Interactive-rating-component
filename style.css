@@ -4,15 +4,8 @@
     padding: 0;
 }
 
-.card{
-    background-color: hsl(213, 19%, 18%);
-    border-radius: 20px;
-    padding: 20px;
-    max-width: 400px;
 
-}
 
-        
 body {
     background-color: hsl(216, 12%, 8%);
     display:flex;
@@ -21,3 +14,55 @@ body {
     height:100vh;
 }
 
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.card{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+
+}
+
+.star-icon{
+
+    width: 50px;
+    height: 50px;
+    background-color:hsl(219, 19%, 21%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+
+.button-rating{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+
+button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 100%, 100%);
+}
